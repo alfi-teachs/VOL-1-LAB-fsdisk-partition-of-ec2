@@ -115,8 +115,10 @@ sudo mkdir /data
 
 
 # Step 9: Mount the Partition
-
+```bash
 # sudo mount /dev/xvdbb1 /data
+```
+
 Verify:
 
 ```bash
@@ -143,8 +145,6 @@ Add entry:
 ```bash
 UUID=xxxx-xxxx  /data  ext4  defaults,nofail  0  2
 ```
-
-
 Save and test:
 
 ```bash
