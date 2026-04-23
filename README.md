@@ -88,7 +88,7 @@ Save changes:
 w
 ```
 
-Step 6: Verify Partition
+# Step 6: Verify Partition
 
 ```bash
 lsblk
@@ -99,7 +99,7 @@ Output will show:
 /dev/xvdbb1
 ```
 
-Step 7: Format the Partition
+# Step 7: Format the Partition
 
 Format using ext4:
 
@@ -114,7 +114,7 @@ sudo mkdir /data
 ```
 
 
-Step 9: Mount the Partition
+# Step 9: Mount the Partition
 ```bash
 # sudo mount /dev/xvdbb1 /data
 Verify:
