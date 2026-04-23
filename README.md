@@ -115,7 +115,7 @@ sudo mkdir /data
 
 
 # Step 9: Mount the Partition
-```bash
+
 # sudo mount /dev/xvdbb1 /data
 Verify:
 
